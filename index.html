@@ -249,7 +249,7 @@ function cg(d){g=Math.min(14,Math.max(1,g+d));document.getElementById('gn').text
 // ── CTA Airbnb
 function go(){
   var checkIn=ci.value,checkOut=co.value;
-  var u='https://www.airbnb.es/rooms/1339972762190446273?guests='+g+'&adults='+g+'&s=67';
+  var u='https://www.airbnb.com.co/rooms/1339972762190446273?guests='+g+'&adults='+g+'&s=67';
   if(checkIn)u+='&check_in='+checkIn;
   if(checkOut)u+='&check_out='+checkOut;
   px(checkIn&&checkOut?'InitiateCheckout':'ViewContent',{content_ids:['1339972762190446273'],content_type:'hotel'});
